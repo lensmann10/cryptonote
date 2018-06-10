@@ -35,7 +35,7 @@ const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 //TODO Define number of digits
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 //TODO Define minimum fee for transactions
-const uint64_t MINIMUM_FEE                                   = 10000;
+const uint64_t MINIMUM_FEE                                   = UINT64_C(10000);
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
 
 //TODO Define preferred block's target time
@@ -107,7 +107,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
   "185.23.145.6:20236",
-  "185.23.145.6:20237",
+  "185.23.145.6:20237"
 };
 
 struct CheckpointData {
